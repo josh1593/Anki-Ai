@@ -7,7 +7,7 @@ const PromptDialog = ({ open, onClose, onGenerate }) => {
   const [error, setError] = useState('');
 
   const configuration = new Configuration({
-    apiKey: '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'
+    apiKey: process.env.REACT_APP_OPENAI_API_KEY
   });
   const openai = new OpenAIApi(configuration);
 
@@ -34,7 +34,6 @@ const PromptDialog = ({ open, onClose, onGenerate }) => {
 
         const content = response.data.choices[0].message.content;
 
-        // Extract front and back using regex
         const frontMatch = content.match(/Front:\s*(.*)\s*Back:/);
         const backMatch = content.match(/Back:\s*(.*)/);
 

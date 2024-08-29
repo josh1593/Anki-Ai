@@ -21,4 +21,3 @@ This project is a React-based web application that generates and displays AI-pow
 3. **Flashcard Display:** The generated flashcards are displayed in an interactive interface where users can:
    - **Flip cards** to reveal the answer.
    - **Navigate** between cards using "Previous" and "Next" buttons.
-   - **See their progress** (current card number / total cards).

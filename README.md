@@ -1,4 +1,6 @@
-<img width="1104" alt="Screenshot 2024-08-29 at 1 46 12 PM" src="https://github.com/user-attachments/assets/14a46197-e529-46f6-bcf8-782313ea27b5"># AI-Powered Anki Cards
+<img width="1104" alt="Screenshot 2024-08-29 at 1 46 12 PM" src="https://github.com/user-attachments/assets/14a46197-e529-46f6-bcf8-782313ea27b5">
+
+# AI-Powered Anki Cards
 
 This project is a React-based web application that generates and displays AI-powered Anki-style flashcards. It utilizes OpenAI's GPT-4 model to create customized flashcards based on user prompts.
 

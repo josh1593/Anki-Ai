@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import FlashCardComponent from './components/Flashcards';
-import PromptDialog from './components/PromptDialog';
+import FlashCardComponent from './components/FlashCard';
+import PromptDialog from './components/PromptDialog/PromptDialog';
 
 const App = () => {
   const [flashcards, setFlashcards] = useState([]);
